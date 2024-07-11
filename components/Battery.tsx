@@ -47,14 +47,14 @@ const Battery: React.FC = () => {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">Battery Levels</h1>
-      {/* <form onSubmit={handleSubmit} className="mb-4">
+      <form onSubmit={handleSubmit} className="mb-4">
         <button
           type="submit"
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition"
         >
           Save
         </button>
-      </form> */}
+      </form>
       
       <div>
         <h2 className="text-xl font-semibold">Steph's Battery</h2>
