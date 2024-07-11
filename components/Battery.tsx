@@ -54,8 +54,8 @@ const Battery: React.FC = () => {
         >
           Save
         </button>
-      </form>
-       */}
+      </form> */}
+      
       <div>
         <h2 className="text-xl font-semibold">Steph's Battery</h2>
         <div
@@ -68,7 +68,7 @@ const Battery: React.FC = () => {
             style={{ width: `${batteryLevel1}%` }}
           />
         </div>
-        <p className="mt-2"> {Math.round(batteryLevel1)}%</p>
+        <p className="mt-2">{Math.round(batteryLevel1)}%</p>
       </div>
 
       <div className="mt-4">
@@ -83,7 +83,7 @@ const Battery: React.FC = () => {
             style={{ width: `${batteryLevel2}%` }}
           />
         </div>
-        <p className="mt-2"> {Math.round(batteryLevel2)}%</p>
+        <p className="mt-2">{Math.round(batteryLevel2)}%</p>
       </div>
     </div>
   );
